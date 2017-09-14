@@ -8,7 +8,7 @@ import static junit.framework.TestCase.assertEquals;
  */
 public class CalculatorTest {
     Calculator calculator;
-    
+
     @Before
     public void init() {
         calculator = new Calculator();
@@ -17,7 +17,7 @@ public class CalculatorTest {
     @Test
     public void calculateSumTest() {
         long sum = calculator.calculateSum(4, 2);
-        assertEquals(6, sum);
+        assertEquals(5, sum);
     }
 
 }
