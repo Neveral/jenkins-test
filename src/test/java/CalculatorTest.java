@@ -17,7 +17,7 @@ public class CalculatorTest {
     @Test
     public void calculateSumTest() {
         long sum = calculator.calculateSum(4, 2);
-        assertEquals(5, sum);
+        assertEquals(4, sum);
     }
 
 }
